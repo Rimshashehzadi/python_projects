@@ -1,5 +1,5 @@
 
-#input
+#input that enter data  from user
 
 rent = int(input("Enter your hostle/flat rent = "))
 food = int(input("Enter the amount of food ordered = "))
