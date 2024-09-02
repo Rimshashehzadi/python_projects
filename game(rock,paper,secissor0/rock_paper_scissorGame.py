@@ -32,7 +32,7 @@ com_choice = random.choice(item_list)
 
 print(f"User choice  {user_choice} Computer choice = {com_choice}")
  
- # print result with randomly enter user value
+ # print result with randomly enter user value and win as soon as possible
 if user_choice == com_choice:
     print("Both chooses same: = Match tie")
 
