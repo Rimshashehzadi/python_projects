@@ -17,7 +17,7 @@ image_paths = [
     r"C:\Users\LENOVO\OneDrive\Pictures\fit.jpg"
 
 ]
-#Resize the image to 1080x1080
+#Resize the image to 1080x1080 size
 image_size = (1080,1080)
 images = [Image.open(path). resize(image_size) for path in image_paths]
 photo_images = [ImageTk.PhotoImage(image) for image in images]
